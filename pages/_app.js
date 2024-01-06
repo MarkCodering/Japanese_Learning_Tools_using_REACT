@@ -28,8 +28,10 @@ export default function App() {
             <Hiragana_QA/>
             <Footer/>
             <br/>
+            <div className="text-1xl font-bold text-center">
             TO-DO list for ML：Can be train from
             https://github.com/Nippon2019/Handwritten-Japanese-Recognition/tree/master
+            </div>
         </div>
     )
 }

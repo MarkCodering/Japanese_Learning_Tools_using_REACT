@@ -57,7 +57,7 @@ export default function Hiragana_QA() {
         <div className="askDiv">
           <span className="font-bold">問題:</span>
           <label id="AskLabel" className="flex justify-center">
-            日文字
+            日文字: 
             <div className="flex justify-center">
                 <span className="text-2xl">{question}</span>
             </div>
@@ -67,7 +67,7 @@ export default function Hiragana_QA() {
           <label className="font-bold msr-2">答案:</label>
           <input
             id="wordInput"
-            className="pt-2 pb-2 mt-6"
+            className="pt-2 pb-2 mt-6 mb-6 border-solid border-2 border-111111" 
             type=""
             name=""
             onKeyDown={(event) => {
